@@ -16,7 +16,7 @@ set nohlsearch
 " Split settings
 set splitbelow
 set splitright
-set wmh=0
+set wmh=5
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
