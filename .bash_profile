@@ -10,3 +10,14 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
+
+
+DARKGRAY='\e[1;30m'
+LIGHTRED='\e[1;31m'
+LIGHTGREEN='\e[32m'
+YELLOW='\e[1;33m'
+LIGHTBLUE='\e[1;34m'
+NC='\e[m'
+
+
+PS1="$LIGHTGREEN[\w] \n$DARKGRAY[$LIGHTBLUE$PCT\u@\h$DARKGRAY]\$$NC "

@@ -9,4 +9,10 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-xset r rate 200 20
+xset r rate 200 40
+
+alias c=clear
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias ..='cd ..'
