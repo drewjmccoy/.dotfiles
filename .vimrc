@@ -40,4 +40,7 @@ command Wa wa
 inoremap {<CR>  {<CR>}<Esc>O
 inoremap {{     {
 inoremap {}     {}
-inoremap for<Space>( for<Space>(int<Space>i<Space>=<Space>0;<Space>i<Space><<Space>n;<Space>i++)<Space>{<CR>}<Esc>O
+inoremap for<Space>(          for<Space>(int<Space>i<Space>=<Space>0;<Space>i<Space><<Space>n;<Space>i++)<Space>{<CR>}<Esc>O
+inoremap while<Space>(        while<Space>()<Space>{<CR>}<Esc>kwa
+inoremap if<Space>(           if<Space>()<Space>{<CR>}<Esc>kwa
+inoremap printf        printf("\n");<Esc>hhhhi
